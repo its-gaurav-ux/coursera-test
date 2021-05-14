@@ -1,10 +1,10 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* this property allow us to include padding and border of  an element */.
 }
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Lucida Grande"; /*,it specify prioritized list for one ore more font family names and generic family names for selected element */.
 }
 
 a {
@@ -12,13 +12,13 @@ a {
 }
 
 .clear {
-  clear: right;
+  clear: right; /*, this property is allowed for floating and non floating elements */.
 }
 
 .container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 1170px; /*,the class container provide a responsive fixed width  container */.
+  padding: 0 15px; /*,Element padding area is the space between containt and its border */.
+  margin: 0 auto; /*, it is  used to create space around an element properties to  set element margin (top ,right,bottom,and left) */.
 }
 
 .top-wrapper {
@@ -30,10 +30,10 @@ a {
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  opacity: 0.7; /*,for encapsulating all visual elements of the page */
   font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
+  letter-spacing: 5px; /*,Horizontal spacing between the text  character */.
+  margin-bottom: 10px; /*, sets margin area on the bottom of an element */.
 }
 
 .top-wrapper p {
