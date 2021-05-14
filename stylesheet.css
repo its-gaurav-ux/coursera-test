@@ -12,7 +12,7 @@ a {
 }
 
 .clear {
-  clear: right; /*, this property is allowed for floating and non floating elements */.
+  clear: center; /*, this property is allowed for floating and non floating elements */.
 }
 
 .container {
@@ -26,7 +26,7 @@ a {
   background-image: url(https://th.bing.com/th/id/R4a3184633be2496283f3f787d7942d6e?rik=CwAtB1xQkMQRNw&riu=http%3a%2f%2friazlatib.com%2fwp-content%2fuploads%2f2013%2f03%2fjarvis.jpg&ehk=9GYTWQelItar5rPyTqmi6t%2fCgPPPKVoFAnLkiZ%2ba9pM%3d&risl=&pid=ImgRaw);
   background-size: cover;
   color: white;
-  text-align: right;
+  text-align: center;
 }
 
 .top-wrapper h1 {
@@ -69,7 +69,7 @@ a {
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
-  text-align: center;
+  text-align: right;
 }
 
 .btn:hover {
